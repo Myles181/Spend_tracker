@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p>
+    <br>
+    <h2 style="text-align: center;">Managing money has never been easier</h2>
+    <br>
+    <h3 style="text-align: center;">Savy Spender is an expense tracker that allows you to keep track of your users expenses all in one place.</h3>
+</p>
+<br>
+<h2>If you are a new user click here</h2>
+<form action="{{ url_for('signup') }}">
+    <button class="NewUserButton">New User</button></form>
+
+{% endblock %}

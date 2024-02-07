@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://goodlifefamilymag.com/wp-content/uploads/2018/08/Stack-of-colorful-books.-Education-background.-Back-to-school.-Book-hardback-colorful-books-on-wooden-table.-Education-business-concept.-Copy-space-for-text-700268816_3877x2585-1920x1280.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* .container {
+    display: flex;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+} */
+body {
+    display: grid;
+    grid-row: 2fr 2fr 2fr;
+    grid-column: 2fr 2fr 2fr;
+    padding: 10px;
+    margin: 50px;
+    border-width: 10px;
+    border-style: dashed;
+    font-size: 20px;
+    border-color: skyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('https://goodlifefamilymag.com/wp-content/uploads/2018/08/Stack-of-colorful-books.-Education-background.-Back-to-school.-Book-hardback-colorful-books-on-wooden-table.-Education-business-concept.-Copy-space-for-text-700268816_3877x2585-1920x1280.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    color: rebeccapurple;
+}
+
+header button {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: powderblue;
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body > header > img {
+    max-width: 20%;
+    max-height: auto;
+    resize: 10%;
+}
+
+.NewUserButton {
+    margin-left: 45px;
+    padding: 15px;
+}
+
+.table {
+    background-color: paleturquoise;
+    position: center;
+}
+
+input {
+    width: 80%;
+    background-color: thistle;
+    position: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.grid-content {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr;
+}
+
+.following {
+    grid-row-start: 2;
+}
+
+
+button{
+        background-color: skyblue;
+        color: darkblue;
+        padding: 20px;
+        text-align: center;
+        text-decoration: wavy;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 25px;
+
+      }
+
+button:hover{
+    color: slateblue;
+    background-color: turquoise;
+    font-weight: bolder;
+}
+
+.alert{
+    font-size: 35px; 
+    font-weight: bolder; 
+    color: red;
+    text-align: center;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
